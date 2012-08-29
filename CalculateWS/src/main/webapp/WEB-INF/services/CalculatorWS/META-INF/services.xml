@@ -1,0 +1,19 @@
+<serviceGroup>
+  <service name="Calculator" targetNamespace="http://sd.service.Calculator/">
+    <description>JNLPGenerator service</description>
+    <schema schemaNamespace="http://sd.service.Calculator/" />
+    <parameter name="ServiceClass" locked="false">sd.service.Calculator</parameter>
+    <operation name="Add">
+      <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+    </operation>
+    <operation name="Subtract">
+      <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+    </operation>
+    <operation name="Divide">
+      <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" ></messageReceiver>
+    </operation>
+    <operation name="Multiply">
+      <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+    </operation>
+  </service>
+</serviceGroup>
