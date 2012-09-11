@@ -1,6 +1,15 @@
+<!-- 
+	This file contains the configuration for the web service and every
+	Axis2 Web Service requires this file. It provides a description of 
+	the web service, the name of the service class and the operations
+	of the class. For more information regarding this file refer to 
+	the following link.
+	
+	http://axis.apache.org/axis2/java/core/docs/xmlbased-server.html
+ -->
 <serviceGroup>
   <service name="Calculator" targetNamespace="http://sd.service.Calculator/">
-    <description>JNLPGenerator service</description>
+    <description>A very simple Calculator Web Service.</description>
     <schema schemaNamespace="http://sd.service.Calculator/" />
     <parameter name="ServiceClass" locked="false">sd.service.Calculator</parameter>
     <operation name="Add">
@@ -10,7 +19,7 @@
       <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
     </operation>
     <operation name="Divide">
-      <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" ></messageReceiver>
+      <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
     </operation>
     <operation name="Multiply">
       <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />

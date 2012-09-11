@@ -1,3 +1,10 @@
+<!-- 
+	This file is known as the Project Object Model which contains information
+	about the project and the configuration details used by Maven to build
+	the project. For more information about this file please view the 
+	following link.
+	http://maven.apache.org/guides/introduction/introduction-to-the-pom.html
+ -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>CalculateWS</groupId>
